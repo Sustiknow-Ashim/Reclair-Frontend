@@ -1,0 +1,11 @@
+.banner-container{
+    /* background-image: url(../../public/banner2.jpg); */
+    height: auto;
+};
+
+
+.footer{
+    position: fixed !important;
+    left: 0 !important;
+    bottom: 0 !important;
+}

@@ -1,0 +1,34 @@
+#projectScreen::before {
+    /* background-image: url('https://media.istockphoto.com/photos/solar-panels-on-the-roof-of-the-modern-house-picture-id1192834365?k=20&m=1192834365&s=612x612&w=0&h=3MLrfA5mDWe2NPJgQsXa9he2ktpoPeqt9HPPLc5EKoo=');
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    content: "";
+    background: url('https://images.pexels.com/photos/159397/solar-panel-array-power-sun-electricity-159397.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    opacity: 0.2;
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: auto !important;
+    height: 1250px !important;
+    z-index: -3;
+}
+
+#projectScreen {
+    /* font-family:'Times New Roman', Times, serif; */
+    font-size: 20px;
+}
+
+#prevImg:hover {
+    opacity: 1 !important;
+}
